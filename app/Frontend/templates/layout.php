@@ -44,7 +44,7 @@
     </div>
 </nav>
 
-<div class="container">
+<div class="container nop">
     <?php if ($user->hasFlash()) echo '<p style="text-align: center;">', $user->getFlash(), '</p>'; ?>
     <?php echo $content; ?>
 </div>
