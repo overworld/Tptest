@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<routes>
+    <route url="/login" module="Connexion" action="login"></route>
+    <route url="/logout" module="Connexion" action="logout"></route>
+    <route url="/admin" module="News" action="index"></route>
+    <route url="/admin/news/add" module="News" action="add"></route>
+    <route url="/admin/news-([0-9]+)/modifier" module="News" action="edit" vars="id"></route>
+    <route url="/admin/news-([0-9]+)/supprimer" module="News" action="delete" vars="id"></route>
+    <route url="/admin/commentaire-([0-9]+)/modifier" module="Comments" action="edit" vars="id"></route>
+    <route url="/admin/commentaire-([0-9]+)/supprimer" module="Comments" action="delete" vars="id"></route>
+</routes>
